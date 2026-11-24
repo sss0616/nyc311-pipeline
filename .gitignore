@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+figures/test_output/
+data/test_nyc311.db
+run_log.txt

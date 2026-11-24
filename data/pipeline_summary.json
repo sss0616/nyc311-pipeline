@@ -1,0 +1,37 @@
+{
+  "run_time": "2026-11-24T23:48:20",
+  "counts": {
+    "api_records": 500,
+    "kafka_published": 500,
+    "kafka_failed": 0,
+    "kafka_consumed": 500,
+    "valid_records": 500,
+    "invalid_records": 0,
+    "after_cleaning": 500,
+    "stored_in_sqlite": 500
+  },
+  "kafka_start_offset": 500,
+  "idempotency": {
+    "first_load": {
+      "input_records": 500,
+      "rows_before": 0,
+      "inserted": 500,
+      "updated": 0,
+      "unchanged": 0,
+      "rows_after": 500
+    },
+    "second_load": {
+      "input_records": 500,
+      "rows_before": 500,
+      "inserted": 0,
+      "updated": 0,
+      "unchanged": 500,
+      "rows_after": 500
+    },
+    "checksums_equal": true
+  },
+  "explanation": [
+    "All counts are equal: no lost messages, no invalid records, no duplicates.",
+    "The 3 invalid test records are not part of the dataset."
+  ]
+}
